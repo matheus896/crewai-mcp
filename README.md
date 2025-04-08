@@ -144,12 +144,11 @@ Adicione isto ao seu arquivo de configuração do cliente MCP (ex: `claude_deskt
 
 ## 📜 License
 
-Este projeto é licenciado sob a MIT License. Veja o arquivo `LICENSE` (se existir no repositório) para mais detalhes.
+Este projeto é licenciado sob a MIT License.
 
 ---
 
 **Observações:**
 
 *   Substitua `/caminho/completo/para/matheus896-crewai-mcp/summarizer_server` pelo caminho real onde o diretório `summarizer_server` está localizado na sua máquina ao configurar o cliente MCP.
-*   Adicione um arquivo `LICENSE` ao seu repositório se ainda não tiver um (o MIT é uma escolha comum e permissiva).
 *   Certifique-se de que o nome do repositório (`matheus896/crewai-mcp`) esteja correto nos exemplos.
