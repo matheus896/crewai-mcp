@@ -142,6 +142,28 @@ Adicione isto ao seu arquivo de configuração do cliente MCP (ex: `claude_deskt
 }
 ```
 
+**Exemplo usando no cline:**
+
+```json
+    "crewai-summarizer_server": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "uv",
+        "--directory",
+        "C:\\caminho\\completo\\para\\crewai-mcp\\summarizer_server", #ALTERE PARA O SEU CAMINHO
+        "run",
+        "run_crew"
+      ],
+      "env": {
+        "GEMINI_API_KEY": "YOUR_API_KEY"
+      },
+      "transportType": "stdio",
+      "disabled": false,
+      "autoApprove": [],
+      "timeout": 60
+```
+
 ## 📜 License
 
 Este projeto é licenciado sob a MIT License.
