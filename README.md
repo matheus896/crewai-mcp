@@ -1,6 +1,6 @@
 # CrewAI Summarizer MCP Server 📝
 
-Um servidor MCP (Multi-Crew Protocol) que utiliza agentes CrewAI para fornecer um serviço de sumarização (resumo) de texto.
+Um servidor MCP (Multi Context Protocol) que utiliza agentes CrewAI para fornecer um serviço de sumarização (resumo) de texto.
 
 ## ✨ Features
 
