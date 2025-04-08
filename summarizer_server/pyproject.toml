@@ -1,0 +1,31 @@
+[project]
+name = "summarizer_server"
+version = "0.1.0"
+description = "MCP Server for Text Summarization using CrewAI"
+authors = [{ name = "Seu Nome", email = "seu@email.com" }]
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    # Garante que temos CrewAI e ferramentas opcionais (embora não usemos ferramentas externas aqui)
+    "crewai[tools]>=0.108.0,<1.0.0",
+    # Necessário para carregar o .env
+    "python-dotenv>=1.0.0",
+    # Necessário para o FastMCP e CLI
+    "mcp[cli]>=1.2.0",
+    # Escolha sua biblioteca LLM - exemplo com OpenAI
+    "openai>=1.0.0"
+    # Se usar Anthropic: "anthropic>=0.20.0"
+    # Se usar Gemini: "google-generativeai>=0.4.0"
+    # etc.
+]
+
+[project.scripts]
+# Define como rodar o servidor usando 'uv run run_crew'
+run_crew = "summarizer_server.main:run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+# Adiciona metadados para CrewAI (opcional, mas bom para clareza)
+[tool.crewai]
+type = "crew"

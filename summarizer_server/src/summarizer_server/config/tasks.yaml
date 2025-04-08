@@ -1,0 +1,4 @@
+summarization_task:
+  description: "Summarize the following text to a {length} length:\n\n--- TEXT ---\n{text}\n--- END TEXT ---"
+  expected_output: "A concise summary of the provided text, adhering to the requested {length} length (short, medium, or long)."
+  agent: text_summarizer # Vincula esta tarefa ao agente definido em agents.yaml
