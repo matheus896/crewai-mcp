@@ -1,7 +1,3 @@
-Okay, aqui está uma sugestão de README para o seu projeto `summarizer_server`, baseado no exemplo fornecido e adaptado ao seu código.
-
----
-
 # CrewAI Summarizer MCP Server 📝
 
 Um servidor MCP (Multi-Crew Protocol) que utiliza agentes CrewAI para fornecer um serviço de sumarização (resumo) de texto.
