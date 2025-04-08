@@ -7,12 +7,7 @@ from dotenv import load_dotenv
 # Carregando variáveis de ambiente
 load_dotenv()
 
-# Importe a classe do seu LLM preferido
-# from langchain_openai import ChatOpenAI
-# from langchain_anthropic import ChatAnthropic
-# etc.
-
-# Descomente e configure seu LLM (exemplo com Gemini)
+# configure seu LLM (exemplo com Gemini)
 llm = LLM (model = 'gemini/gemini-2.0-flash-001')
 
 @CrewBase
