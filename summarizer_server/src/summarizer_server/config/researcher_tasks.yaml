@@ -1,0 +1,4 @@
+research_task:
+  description: "Pesquise na internet sobre o tópico '{topic}'. Foque em encontrar os pontos mais importantes e recentes."
+  expected_output: "Um resumo conciso dos resultados da pesquisa sobre '{topic}', destacando os pontos chave encontrados."
+  agent: web_researcher # Vincula esta tarefa ao agente definido em researcher_agents.yaml
