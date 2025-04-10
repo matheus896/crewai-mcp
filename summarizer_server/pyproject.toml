@@ -2,11 +2,12 @@
 name = "summarizer_server"
 version = "0.1.0"
 description = "MCP Server for Text Summarization using CrewAI"
-authors = [{ name = "Seu Nome", email = "seu@email.com" }]
+authors = [{ name = "Matheus" }]
 requires-python = ">=3.10,<3.13"
 dependencies = [
-    # Garante que temos CrewAI e ferramentas opcionais (embora não usemos ferramentas externas aqui)
-    "crewai[tools]>=0.108.0,<1.0.0",
+    # Garante que temos CrewAI e ferramentas
+    "crewai>=0.108.0",
+    "crewai-tools>=0.40.1",
     # Necessário para carregar o .env
     "python-dotenv>=1.0.0",
     # Necessário para o FastMCP e CLI
